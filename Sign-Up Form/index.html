@@ -1,0 +1,107 @@
+<!-- Document Type Declaration -->
+<!DOCTYPE html>
+
+<!-- HTML element -->
+<html lang="en">
+  <!-- Head element -->
+  <head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8" />
+
+    <!-- Viewport meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the page -->
+    <title>Signup Form</title>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Import Google Font "Poppins" -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Body element -->
+  <body>
+    <!-- Container div -->
+    <div class="container">
+      <!-- Image container -->
+      <div class="image-container">
+        <!-- Signup image -->
+        <img src="./media/images/Banch-lady.svg" alt="Signup Image" />
+      </div>
+
+      <!-- Form container -->
+      <div class="form-container">
+        <!-- Logo -->
+        <div class="logo">
+          <!-- Leaf logo image -->
+          <img src="./media/images/Logo.svg" alt="Leaf Logo" />
+        </div>
+
+        <!-- Create account heading -->
+        <div class="create-account">
+          <h3>Create Account</h3>
+        </div>
+
+        <!-- Form element -->
+        <form>
+          <!-- Full name input field -->
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" placeholder="Enter Full Name" />
+          </div>
+
+          <!-- Email input field -->
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Your Email" />
+          </div>
+
+          <!-- Password input field -->
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter Your Password"
+            />
+          </div>
+
+          <!-- Signup button -->
+          <button class="signup-btn">Sign-Up</button>
+
+          <!-- OR separator -->
+          <div class="or">
+            <h6>- OR -</h6>
+          </div>
+        </form>
+
+        <!-- Social login container -->
+        <div class="social-logins">
+          <!-- Google login icon -->
+          <img src="./media/images/google icon.svg" alt="Google Logo" />
+          <!-- Facebook login icon -->
+          <img src="./media/images/Facebook logo.svg" alt="Facebook Logo" />
+          <!-- Apple login icon -->
+          <img src="./media/images/Apple Logo.svg" alt="Apple Logo" />
+        </div>
+
+        <!-- Login link -->
+        <p class="login-link">
+          Already have an account? <a href="#" class="login-btn">Login</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Script tag for external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>

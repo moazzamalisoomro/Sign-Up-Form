@@ -1,0 +1,273 @@
+/* Resetting default browser styles */
+* {
+  box-sizing: border-box; /* Makes box-sizing consistent across browsers */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Container styles */
+.container {
+  display: flex; /* Makes the container a flexible box */
+  flex-direction: row; /* Aligns items horizontally */
+  align-items: center; /* Vertically centers items */
+  justify-content: center; /* Horizontally centers items */
+  min-height: 100vh; /* Sets minimum height to full viewport height */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Image container styles */
+.image-container {
+  flex: 1; /* Takes equal space as the form container */
+}
+
+.image-container img {
+  width: 100%; /* Sets image width to full container width */
+  height: 100%; /* Sets image height to full container height */
+  object-fit: cover; /* Scales the image to cover the container */
+  border-radius: 10px 0 0 10px; /* Adds rounded corners to the left side */
+}
+
+/* Form container styles */
+.form-container {
+  flex: 1; /* Takes equal space as the image container */
+  padding: 20px; /* Adds padding to the form container */
+  background-color: #fff; /* Sets background color to white */
+  border-radius: 0 10px 10px 0; /* Adds rounded corners to the right side */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+}
+
+/* Logo styles */
+.logo {
+  display: flex; /* Makes the logo a flexible box */
+  justify-content: center; /* Centers the logo horizontally */
+}
+
+/* Create account heading styles */
+.create-account h3 {
+  opacity: 70%; /* Sets text opacity to 70% */
+  color: black; /* Sets text color to black */
+  text-align: center; /* Centers the text horizontally */
+  margin-bottom: 20px; /* Adds margin below the heading */
+  font-weight: 600; /* Sets font weight to semi-bold */
+  font-size: 34px; /* Sets font size to 34 pixels */
+  line-height: 51px; /* Sets line height to 51 pixels */
+  font-family: "Poppins"; /* Sets font family to Poppins */
+  margin-top: 30px; /* Adds margin above the heading */
+  margin-bottom: 30px; /* Adds margin below the heading */
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px; /* Adds margin below each form group */
+}
+
+.form-group label {
+  display: block; /* Makes the label a block element */
+  margin-bottom: 10px; /* Adds margin below each label */
+  opacity: 80%; /* Sets label opacity to 80% */
+  font-family: "Poppins"; /* Sets font family to Poppins */
+  font-weight: 500; /* Sets font weight to medium */
+}
+
+.form-group input {
+  width: 100%; /* Sets input width to full container width */
+  padding: 10px; /* Adds padding to the input field */
+  margin-bottom: 20px; /* Adds margin below each input field */
+  border: 1px solid #000000; /* Sets border width and color */
+  font-family: "Poppins"; /* Sets font family to Poppins */
+  font-weight: 400; /* Sets font weight to regular */
+  font-size: 20px; /* Sets font size to 20 pixels */
+}
+
+/* Input field styles */
+input[type="text"] {
+  width: 100%; /* Sets input width to full container width */
+  border-radius: 4px; /* Sets border radius to 4 pixels */
+  font-size: 16px; /* Sets font size to 16 pixels */
+  background-image: url("./media/images/user.svg"); /* Sets background image to user icon */
+  background-position: 10px 10px; /* Sets background image position */
+  background-repeat: no-repeat; /* Prevents background image repetition */
+  padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+  border-radius: 17px; /* Sets border radius to 17 pixels */
+  opacity: 50%; /* Sets input opacity to 50% */
+}
+
+input[type="email"] {
+  width: 100%; /* Sets input width to full container width */
+  border-radius: 4px; /* Sets border radius to 4 pixels */
+  font-size: 16px; /* Sets font size to 16 pixels */
+  background-image: url("./media/images/email.svg"); /* Sets background image to email icon */
+  background-position: 10px 10px; /* Sets background image position */
+  background-repeat: no-repeat; /* Prevents background image repetition */
+  padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+  border-radius: 17px; /* Sets border radius to 17 pixels */
+  opacity: 50%; /* Sets input opacity to 50% */
+}
+
+input[type="password"] {
+  width: 100%; /* Sets input width to full container width */
+  border-radius: 4px; /* Sets border radius to 4 pixels */
+  font-size: 16px; /* Sets font size to 16 pixels */
+  background-image: url("./media/images/passwrd.svg"); /* Sets background image to password icon */
+  background-position: 10px 10px; /* Sets background image position */
+  background-repeat: no-repeat; /* Prevents background image repetition */
+  padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+  border-radius: 17px; /* Sets border radius to 17 pixels */
+  opacity: 50%; /* Sets input opacity to 50% */
+}
+
+.signup-btn {
+  background-color: #73895d; /* Sets button background color */
+  color: #fcfeff; /* Sets button text color */
+  padding: 10px 20px; /* Adds padding to the button */
+  border: none; /* Removes button border */
+  border-radius: 30px 20px 30px 20px; /* Sets button border radius */
+  cursor: pointer; /* Changes cursor shape to a pointing hand */
+  width: 100%; /* Sets button width to full container width */
+  font-family: "Poppins"; /* Sets font family to Poppins */
+  font-weight: 600; /* Sets font weight to semi-bold */
+  font-size: 22px; /* Sets font size to 22 pixels */
+}
+
+.signup-btn:hover {
+  background-color: #3e8e41; /* Sets button hover background color */
+}
+
+.or h6 {
+  text-align: center; /* Centers the text horizontally */
+  margin-top: 30px; /* Adds margin above the text */
+  margin-bottom: 30px; /* Adds margin below the text */
+  font-weight: 500; /* Sets font weight to medium */
+  font-size: 26px; /* Sets font size to 26 pixels */
+  line-height: 39px; /* Sets line height to 39 pixels */
+  color: #b0bac3; /* Sets text color */
+  font-family: "Poppins"; /* Sets font family to Poppins */
+}
+
+.social-logins {
+  display: flex; /* Makes the container a flexible box */
+  justify-content: center; /* Centers the items horizontally */
+  gap: 30px; /* Adds gap between items */
+}
+
+.social-logins img {
+  width: 30px; /* Sets image width to 30 pixels */
+  height: 30px; /* Sets image height to 30 pixels */
+  margin-right: 10px; /* Adds margin to the right of the image */
+  cursor: pointer; /* Changes cursor shape to a pointing hand */
+}
+
+.login-link {
+  text-align: center; /* Centers the text horizontally */
+  margin-top: 20px; /* Adds margin above the text */
+  color: #4a4a4a; /* Sets text color */
+  font-size: 18px; /* Sets font size to 18 pixels */
+  font-weight: 400; /* Sets font weight to regular */
+  font-family: "Poppins"; /* Sets font family to Poppins */
+}
+
+.login-btn {
+  color: #73895d; /* Sets button text color */
+  text-decoration: none; /* Removes button text decoration */
+  font-size: 18px; /* Sets font size to 18 pixels */
+  font-weight: 700; /* Sets font weight to bold */
+  font-family: "Poppins"; /* Sets font family to Poppins */
+}
+
+.login-btn:hover {
+  text-decoration: underline; /* Adds underline to button text on hover */
+  color: #3e8e41; /* Sets button hover text color */
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Changes container flex direction to column on small screens */
+  }
+  .image-container {
+    width: 100%; /* Sets image container width to full container width */
+    height: 200px; /* Sets image container height to 200 pixels */
+  }
+  .form-container {
+    width: 100%; /* Sets form container width to full container width */
+    padding: 20px; /* Adds padding to the form container */
+  }
+  input[type="text"] {
+    width: 100%; /* Sets input width to full container width */
+    border-radius: 4px; /* Sets border radius to 4 pixels */
+    font-size: 16px; /* Sets font size to 16 pixels */
+    background-image: url("./media/images/passwrd.svg"); /* Sets background image to password icon */
+    background-position: 10px 10px; /* Sets background image position */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+    border-radius: 17px; /* Sets border radius to 17 pixels */
+    opacity: 50%; /* Sets input opacity to 50% */
+  }
+  input[type="email"] {
+    width: 100%; /* Sets input width to full container width */
+    border-radius: 4px; /* Sets border radius to 4 pixels */
+    font-size: 16px; /* Sets font size to 16 pixels */
+    background-image: url("./media/images/passwrd.svg"); /* Sets background image to password icon */
+    background-position: 10px 10px; /* Sets background image position */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+    border-radius: 17px; /* Sets border radius to 17 pixels */
+    opacity: 50%; /* Sets input opacity to 50% */
+  }
+  input[type="password"] {
+    width: 100%; /* Sets input width to full container width */
+    border-radius: 4px; /* Sets border radius to 4 pixels */
+    font-size: 16px; /* Sets font size to 16 pixels */
+    background-image: url("./media/images/passwrd.svg"); /* Sets background image to password icon */
+    background-position: 10px 10px; /* Sets background image position */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+    border-radius: 17px; /* Sets border radius to 17 pixels */
+    opacity: 50%; /* Sets input opacity to 50% */
+  }
+}
+
+@media (max-width: 480px) {
+  .form-group {
+    margin-bottom: 10px; /* Reduces margin below each form group on small screens */
+  }
+  .form-group input {
+    padding: 5px; /* Reduces padding on input fields on small screens */
+  }
+  .signup-btn {
+    padding: 5px 10px; /* Reduces padding on signup button on small screens */
+  }
+  input[type="text"] {
+    width: 100%; /* Sets input width to full container width */
+    border-radius: 4px; /* Sets border radius to 4 pixels */
+    font-size: 16px; /* Sets font size to 16 pixels */
+    background-image: url("./media/images/passwrd.svg"); /* Sets background image to password icon */
+    background-position: 10px 10px; /* Sets background image position */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+    border-radius: 17px; /* Sets border radius to 17 pixels */
+    opacity: 50%; /* Sets input opacity to 50% */
+  }
+  input[type="email"] {
+    width: 100%; /* Sets input width to full container width */
+    border-radius: 4px; /* Sets border radius to 4 pixels */
+    font-size: 16px; /* Sets font size to 16 pixels */
+    background-image: url("./media/images/passwrd.svg"); /* Sets background image to password icon */
+    background-position: 10px 10px; /* Sets background image position */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+    border-radius: 17px; /* Sets border radius to 17 pixels */
+    opacity: 50%; /* Sets input opacity to 50% */
+  }
+
+  input[type="password"] {
+    width: 100%; /* Sets input width to full container width */
+    border-radius: 4px; /* Sets border radius to 4 pixels */
+    font-size: 16px; /* Sets font size to 16 pixels */
+    background-image: url("./media/images/passwrd.svg"); /* Sets background image to password icon */
+    background-position: 10px 10px; /* Sets background image position */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    padding: 12px 20px 12px 40px; /* Adds padding to the input field */
+    border-radius: 17px; /* Sets border radius to 17 pixels */
+    opacity: 50%; /* Sets input opacity to 50% */
+  }
+}
